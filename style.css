@@ -1,9 +1,9 @@
-.row {
-    min-height: 50px;
+.mrg-top-20 {
+    margin-top: 20px;
 }
 
-.row-6 .box{
-    height: 75px;
+.row {
+    min-height: 50px;
 }
 
 .box {
