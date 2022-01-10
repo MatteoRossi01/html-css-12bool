@@ -15,177 +15,70 @@
     margin: 0 auto;
 }
 
-[class^="row"] {
+.row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-/* Gestione col row-1 */
+/* Gestione col */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
 }
 
 .col-2 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
 }
 
 .col-3 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
 }
 
 .col-4 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
 }
 
 .col-5 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
 }
 
 .col-6 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
 }
 
 .col-7 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
 }
 
 .col-8 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
 
 .col-9 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
 }
 
 .col-10 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
 }
 
 .col-11 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
 }
 
 .col-12 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
-}
-/* Gestione col row-1 */
-
-/* Gestione col row-2 */
-.row-2 .col-1 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.row-2 .col-2 {
-    flex-basis: calc((100% / 12) * 5);
-    max-width: calc((100% / 12) * 5);
-}
-
-.row-2 .col-3 {
-    flex-basis: calc((100% / 12) * 5);
-    max-width: calc((100% / 12) * 5);
-}
-/* Gestione col row-2 */
-
-/* Gestione col row-3 */
-.row-3 .col {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
-/* Gestione col row-3 */
-
-/* Gestione col row-4 */
-.row-4 .col-1 {
-    flex-basis: calc((100% / 12) * 8);
-    max-width: calc((100% / 12) * 8);
-}
-
-.row-4 .col-2 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.row-4 .col-3 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-/* Gestione col row-4 */
-
-/* Gestione col row-5 */
-.row-5 .col-1 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
-}
-
-.row-5 .col-2 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.row-5 .col-3 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.row-5 .col-4 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100% / 12) * 6);
-}
-
-.row-5 .col-5 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
-}
-/* Gestione col row-5 */
-
-/* Gestione col row-6 */
-.row-6 .col-1 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100% / 12) * 6);
-}
-
-.row-6 .col-2 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100% / 12) * 6);
-}
-/* Gestione col row-6 */
-
-/* Gestione nested-col row-6 */
-.nest .col-1 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.nest .col-2 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100% / 12) * 2);
-}
-
-.nest .col-3 {
-    flex-basis: calc((100% / 12) * 8);
-    max-width: calc((100% / 12) * 8);
-}
-
-.nest .col-4 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100% / 12) * 6);
-}
-
-.nest .col-5 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100% / 12) * 6);
-}
-/* Gestione nested-col row-6 */
+/* Gestione col */
